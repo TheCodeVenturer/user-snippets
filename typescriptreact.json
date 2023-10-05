@@ -1,0 +1,46 @@
+{
+	"TypeScriptReact Snippet for next js":{
+		"prefix": "ntfce",
+		"body":[
+			"",
+			"const ${1/(.*)/${1:/capitalize}/}:React.FC = () => {",
+			"\treturn (",
+			"\t\t<$2>",
+			"\t\t\t${1:${TM_DIRECTORY/.*\\/(.*)$/$1/g}}",
+			"\t\t</${2}>",
+			"\t);",
+			"};",
+			"",
+			"export default ${1/(.*)/${1:/capitalize}/};"
+		]
+	},
+	"TypeScriptReact Snippet for React with Export":{
+		"prefix": "rtfce",
+		"body":[
+			"",
+			"const ${1/(.*)/${1:/capitalize}/}:React.FC = () => {",
+			"\treturn (",
+			"\t\t<$2>",
+			"\t\t\t${1:${TM_FILENAME_BASE/.*\\/(.*)$/$1/g}}",
+			"\t\t</${2}>",
+			"\t);",
+			"};",
+			"",
+			"export default ${1/(.*)/${1:/capitalize}/};"
+		]
+	},
+	"TypeScriptReact Snippet for React without Export":{
+		"prefix": "rtfc",
+		"body":[
+			"",
+			"const ${1/(.*)/${1:/capitalize}/}:React.FC = () => {",
+			"\treturn (",
+			"\t\t<$2>",
+			"\t\t\t${1:${TM_FILENAME_BASE/.*\\/(.*)$/$1/g}}",
+			"\t\t</${2}>",
+			"\t);",
+			"};",
+			""
+		]
+	}
+}
