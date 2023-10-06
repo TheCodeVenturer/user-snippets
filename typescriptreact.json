@@ -1,6 +1,6 @@
 {
 	"TypeScriptReact Snippet for next js":{
-		"prefix": "ntfce",
+		"prefix": "nfce",
 		"body":[
 			"",
 			"const ${1/(.*)/${1:/capitalize}/}:React.FC = () => {",
@@ -15,7 +15,7 @@
 		]
 	},
 	"TypeScriptReact Snippet for React with Export":{
-		"prefix": "rtfce",
+		"prefix": "rfce",
 		"body":[
 			"",
 			"const ${1/(.*)/${1:/capitalize}/}:React.FC = () => {",
@@ -30,10 +30,10 @@
 		]
 	},
 	"TypeScriptReact Snippet for React without Export":{
-		"prefix": "rtfc",
+		"prefix": "rfc",
 		"body":[
 			"",
-			"const ${1/(.*)/${1:/capitalize}/}:React.FC = () => {",
+			"export const ${1/(.*)/${1:/capitalize}/}:React.FC = () => {",
 			"\treturn (",
 			"\t\t<$2>",
 			"\t\t\t${1:${TM_FILENAME_BASE/.*\\/(.*)$/$1/g}}",
